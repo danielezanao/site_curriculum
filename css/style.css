@@ -1,0 +1,306 @@
+/*css responsavel pela configuração do body*/
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: black;
+}
+
+/*css responsavel pela class nome que fica a esquerda do site no header*/
+.nome {
+    width: 234px;
+    float: left;
+    color: #59981A;
+}
+
+/* class responsavel por estilizar o menu de navegação*/
+.menu {
+    text-decoration: none;
+    font-size: 16px;
+    color: #81B622;
+}
+
+/*estilização do header configurando o tamanho*/
+header {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+
+/*deixando o menu de navegação na mesma linha */
+a:hover {
+    text-decoration: underline;
+}
+
+/* deixando o menu de nevageção posicionado a direita na tela*/
+nav {
+    width: 50%;
+    float: right;
+}
+
+nav ul {
+    float: right;
+}
+
+/*estilização de tamanho e cor dos links de navegação*/
+nav li {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 16px;
+    color: #81B622;
+}
+
+nav li a {
+    color: #999;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.topo {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 5%;
+
+    background: url('../img/verde6.jpg');
+    height: 100%;
+    /*position: relative;*/
+    background-size: 100%;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    width: 65%;
+    background: rgba(0, 0, 0, 0.6);
+    /*background-color: #afb898; /*#BACC81*/
+    padding-top: 2%;
+}
+
+#dados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    width: 100%;
+}
+
+.imagem-coluna {
+    height: 440px;
+    background-color: green;
+}
+
+.cor {
+    color: white;
+    /*#59981A;*/
+}
+
+.text {
+    padding: 0px 10px 20px 40px;
+    text-align: left;
+    border: 20px;
+    text-decoration-color: #304E30;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+    display: inline-block;
+    color: #59981A;
+}
+
+.titulo {
+    display: inline-block;
+    color: #59981A;
+    /*#59981A*/
+}
+
+h3 {
+    font-size: 20px;
+    color: #59981A;
+    /*#304E30*/
+}
+
+/******************************Estilização do menu de redes sociais***************************************/
+.sociais {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    background-color: #59981A;
+    height: 50px;
+}
+
+/******************************Alinhamento de conteiner de informativo*************************************/
+.bloco {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: #D7F6D0;
+    padding: 3%;
+}
+
+.flex-informativo:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.flex-informativo:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.flex-informativo:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.informativoNome {
+    text-align: center;
+}
+
+.informativo {
+    color: #59981A;
+    font-size: 18px;
+}
+
+/*.bloco {
+    background-color: #D7F6D0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 3%;
+    text-align: justify;
+}*/
+
+
+
+
+
+
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 4%;
+    background-color: white;
+    color: darkgreen;
+    /*height: 280px;
+	width: 100%;
+	padding-top: 110px;
+	*/
+}
+
+.profissional {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+
+    ali: center;
+}
+
+th,
+td {
+    padding: 8px;
+    ;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #59981A;
+}
+
+.formaçao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 4%;
+    background-color: white;
+    font-size: 18px;
+    color: darkgreen;
+}
+
+
+
+
+.metas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 4%;
+    background-color: #D7F6D0;
+    color: #59981A;
+    font-size: 18px;
+}
+
+.objetivos {
+    text-align: center;
+}
+
+.footerTexto {
+    margin: 0.30%;
+}
+
+footer {
+    color: darkgreen;
+    background-color: #D7F6D0;
+}
